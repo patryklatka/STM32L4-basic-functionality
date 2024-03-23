@@ -1,13 +1,15 @@
 # STM32L4-basic-functionality
 
-## In this repository I present assignments from the laboratory classes of the Microprocessor Technology course in the Automation and Robotics course, at the AGH University of Science and Technology. And a number of assignments from a public course on microcontrollers available at this [link](https://forbot.pl/blog/kurs-stm32-l4-wstep-spis-tresci-dla-kogo-jest-ten-kurs-id48575).
+### In this repository I present assignments from the laboratory classes of the Microprocessor Technology course in the Automation and Robotics course, at the AGH University of Science and Technology. And a number of assignments from a public course on microcontrollers available at this [link](https://forbot.pl/blog/kurs-stm32-l4-wstep-spis-tresci-dla-kogo-jest-ten-kurs-id48575).
 
 I have learned the basics of programming STM microcontrollers on two NUCLEO boards with processors having Cortex-M4 cores. 
-One is NUCLEO-L476RG ("**L4_**..." files) with KA-Nucleo-Multisensor expander. And the other is NUCLEO-F411RE ("**F4_**..." files). In each folder are the corresponding code and ioc files. Use STM32CubeMX version 6.9.2 and ioc files to generate the configuration used in the given issue.  
+One is NUCLEO-L476RG ("**L4_**..." files) with KA-Nucleo-Multisensor expander. And the other is NUCLEO-F411RE ("**F4_**..." files).  
+In each folder are the corresponding code and ioc files. Use STM32CubeMX version 6.9.2 and ioc files to generate the configuration used in the given issue.  
 
 **The individual tasks consisted of:**
 
 ---
+
 #### **STM32F411RE**
 - [F4_Led](https://github.com/patryklatka/STM32L4-basic-functionality/tree/main/F4_Led) Creating a "snake" from four leds placed on the expander. 
 
@@ -16,7 +18,9 @@ One is NUCLEO-L476RG ("**L4_**..." files) with KA-Nucleo-Multisensor expander. A
 - [F4_Display_7_seg](https://github.com/patryklatka/STM32L4-basic-functionality/tree/main/F4_Display_7_seg) Program the seven-segment display to display four different digits using interrupts.
 
 - [F4_ADC](https://github.com/patryklatka/STM32L4-basic-functionality/tree/main/F4_ADC) Using a photoresistor and ADC to test the brightness of a room, and displaying the result on a display.
+
 ---
+
 #### **STM32L476RG**
 - [L4_UART](https://github.com/patryklatka/STM32L4-basic-functionality/tree/main/L4_UART) Learning about the UART communication protocol. Applying it to transfer data to a terminal on a PC. Any terminal can be used, but I used Tera Term. 
 
